@@ -1,0 +1,42 @@
+/* Layout */
+
+header,
+footer {
+    background-color: #282828;
+    position: fixed;
+    padding: 20px 0;
+    box-sizing: border-box;
+    width: 100%;
+    color: #c3c1c1;
+}
+
+header {
+    top: 0; /*Desde aquí se posiciona este elemento*/
+}
+
+footer {
+    bottom: 0; /*Desde aquí se posiciona este elemento*/
+}
+
+.layout_a {
+    color: #c3c1c1;
+}
+
+.layout_a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+header img {
+    width: 250px;
+    display: block;
+}
+
+img{
+    width: 100%;
+}
+
+.same-height {
+    max-height: 154px;
+    overflow: hidden;
+}

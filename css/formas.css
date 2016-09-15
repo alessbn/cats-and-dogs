@@ -1,0 +1,29 @@
+/* Formas */
+
+.boton {
+    background-color: #ffb400;
+    padding: 20px;
+    border-bottom: 6px solid #e49100;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 100%;
+    margin-right: 10px;
+    transition: all 200ms linear;
+}
+
+.boton:last-of-type {
+    margin-right: 0; /*Hay otra manera efectiva de hacer esto*/
+}
+
+.boton:hover {
+    background-color:#e49100;
+    border-top: 6px solid #ffb400;
+    border-bottom: 0 none; /*Impide que el boton crezca*/
+}
+
+.boton_a {
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
