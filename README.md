@@ -1,7 +1,8 @@
 # Cats & Dogs
+Landing page built in the HTML5 & CSS3 course of Platzi  
 [Live demo](https://alessbn.github.io/cats-and-dogs/)
 
-## Skills covered
+## Skills gained
 * HTML5
 * CSS3
 * Flexbox
